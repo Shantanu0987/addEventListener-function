@@ -29,11 +29,11 @@ Right_Click.addEventListener("contextmenu", () => {
 });
 Scroll_Up.addEventListener("wheel", (e) => {
   if (e.deltaY < 0) {
-    alert("you moved the mouse scroll up");
+    alert(""You scrolled the mouse scroll upwards."");
   }
 });
 Scroll_Down.addEventListener("wheel", (e) => {
   if (e.deltaY > 0) {
-    alert("you moved the mouse scroll down");
+    alert(""You scrolled the mouse scroll downwards."");
   }
 });
