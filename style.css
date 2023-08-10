@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    position:relative;
+    top: 150px;
+    gap: 5px;
+    background-color: black;
+}
+div{
+padding: 50px;
+border: 5px solid white;
+font-size: larger;
+color: white;
+}
+#div1{
+    background-color: aqua;
+    color: black;
+}
+#div2{
+    background-color: rgb(20, 211, 36);
+    color: black;
+}
+#div3{
+    background-color: rgb(13, 71, 148);
+    color: white;
+}
+#div4{
+    background-color: rgb(149, 14, 202);
+    color: white;
+}
+#div5{
+    background-color: rgb(209, 107, 23);
+    color: black;
+}
+#div6{
+    background-color: rgb(109, 59, 190);
+    color: whiet;
+}
+#div7{
+    background-color: rgb(156, 180, 17);
+    color: black;
+}
+#div8{
+    background-color: rgb(221, 05, 55);
+    color: white;
+}
